@@ -1,0 +1,205 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border: 1px, transparent, rgb(27, 0, 27);
+    background-color: green;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+	
+}
+header > h1 { 
+font-size: 45px;
+}
+a {
+    text-decoration: none;
+    color: white;    
+}
+
+h2 {
+    color: rgb(48, 1, 48);
+}
+nav > ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0px;
+}
+ul > li {
+    display: inline-flex;
+    background-color: #1b001b;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid #1b001b;
+}
+ul > li:hover {
+    background-color: darkviolet;
+    border: none;
+}
+
+body {
+    background-image: linear-gradient(to right, darkgreen, white);
+}
+
+p {
+    text-indent: 20px;
+    display: block;
+    text-align: justify;
+    padding: 4px;
+}
+
+img {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.about {
+    background: white;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    width: 48%;
+    padding: 5px;
+    position: relative;
+
+}
+.noticias {
+	flex: 1 1 600px;
+    background: white;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+	float: left;
+
+}
+
+footer {
+    background-color: green;
+    color: black;
+    text-align: center;
+    display: block;
+
+}
+
+footer > p {
+	font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+section {
+    background-color: white;
+    display: inline-block;
+}
+
+table {
+    background-color: white;
+    border: 1px solid none;
+    margin: auto;
+    width: 1200px;
+}
+th {
+    margin: 0px;
+    border: 1px solid rgb(20, 0, 10);
+    padding: 4px;
+}
+td {
+    border: 1px solid rgb(20, 0, 10);
+    padding: 4px;
+    color: white;
+    background-color: rgb(20, 0, 10);
+    text-style: border;
+}
+
+section > #chrome {
+    color: darkblue;
+    padding: 5px;
+    margin: 5px;
+}
+article {
+    padding: 4px;
+}
+
+#logosiscabb {
+    border-radius: 0%;
+    margin:auto
+    display: inlineflex;
+
+}
+
+div {
+    margin: 0px;
+    display: inline-block;
+
+}
+
+.fotocampanha {
+    border-radius: 0px;
+    width: 700px;
+    height: 500px;
+}
+
+main {
+    display: block;
+}
+
+div#teste {
+    display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.dicas {
+    margin: auto;
+    display: block;
+    align: center;
+    background-color: white;
+    width: 1500px;
+}
+
+.dicas > h1, h2 {
+    text-align: center;
+    padding: 4px;
+    color: #1b001b;
+}
+
+.dicas > table {
+    margin: auto;
+}
+
+.dicas > p {
+    padding: 5px;
+    margin: 5px;
+}
+
+section > table {
+    margin: auto
+}
+
+table#exemp {
+    display: inline
+    margin: auto
+    width: auto;
+}
+
+section.d {
+    width: 70%;
+    margin:auto;
+    display: block;
+}
+section.d > h1, h2, h3, p {
+    text-align: center;
+}
+section.d > img {
+    display: block;
+    margin: auto;
+}
+section.d > a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}

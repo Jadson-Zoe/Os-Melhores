@@ -1,0 +1,580 @@
+'<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>OS Melhores</title>
+    <link rel="stylesheet" href="estilos.css">
+	<style>
+		.resultadogeral {
+			display: block;
+			margin: 20px auto;
+			padding: 5px;
+			width: 1000px;
+			align-items: center;
+
+		}
+		#link {
+			color: red;
+			font-size: 2em;
+			font-weight: bold;
+		}
+
+	</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Os Melhores</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="equipes.html">Equipes</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="diario.html">Diário de Bordo</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+	<section class="resultadogeral">
+		<h2>Resultado Junho - Por Operador</h2>
+		<p><a id="link" href="plan_resultadogeral.html" target="_blank">Clique Aqui</a></p>
+		<img style="border-radius: 0px; margin: 10px auto;" src="imagens/foco-em-resultados.jpg" alt="Foco nos resultados">
+	</section>
+	<section class="resultadogeral">
+		<h2>Resultado de Qualidade - JULHO/21</h2>
+		<p><a id="link" href="plan_resultado_qualidade.html" target="_blank">Clique Aqui</a></p>
+		<p><img style="width: 700px; height: 500px; margin: 10px auto 0px;" src="imagens/qualidade1.png"/></p>
+	</section>
+        <!--<h1>RESULTADO DO TIME - SAC - JULHO</h1>
+		<table>
+			<thead>
+				<tr>
+					<td>INDICADOR</td>
+					<td>META</td>
+					<td>INICIAL (07/06)</td>
+					<td>1ª Parcial (11/06)</td>
+					<td>2ª Parcial (18/06)</td>
+					<td>3ª Parcial (25/06)</td>
+					<td>Final</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>TMA</td>
+					<td>246</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>IQA</td>
+					<td>95</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Pausa</td>
+					<td>00:50</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>ABS</td>
+					<td>3,0%</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Tempo Logado</td>
+					<td>06:20</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Aderência</td>
+					<td>93,0%</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+
+		<table class="qualidade">
+			<caption>Notas da Qualidade</caption>
+			<thead>
+				<tr>
+					<th>Chave</th>
+					<th>1ª SPEED</th>
+					<th>2ª SPEED</th>
+					<th>3ª SPEED</th>
+					<th>4ª SPEED</th>
+					<th>5ª SPEED</th>
+					<th>6ª SPEED</th>
+					<th>7ª SPEED</th>
+					<th>8ª SPEED</th>
+					<th>1ª BANCO</th>
+					<th>2ª BANCO</th>
+					<th>MÉDIA SPEED</th>
+					<th>MÉDIA BANCO</th>
+					<th>IQA</th>
+					<th>RECADINHO</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>C1320249</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>90,0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<th>C1316604</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,3</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1314625</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>97,1</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320253</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>91,4</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1316611</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>94,1</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320255</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>94,3</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1315501</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>98,8</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1315502</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>99,1</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320257</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>97,4</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1311246</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>97,6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320262</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>97,9</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1316628</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>99,5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1316671</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>99,0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1311806</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>98,5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1314865</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,8</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320265</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>98,8</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1315525</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>99,5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1284701</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>92,3</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1314647</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1273132</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>93,4</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1314885</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>98,5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1315539</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>99,1</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1312460</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,9</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1311155</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>C1320272</th>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>96,0</td>
+					<td></td>
+					<td></td>
+					<td style="background-color: #fff000;"></td>
+				</tr>
+			</tbody>-->
+		</table>
+    </main>
+    <footer>
+        <p><em>Desenvolvido por Esdras Santos</em><br>Contato:<br>
+        esdras.santos@speedmais.com.br<br>(81)9.9560-5519</p>
+    </footer>
+</body>
+</html>'
