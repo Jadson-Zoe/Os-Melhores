@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, darkgray, white);
+}
+
+header {
+    background-color: gray;
+    margin: 0 0 10px;
+    padding: 5px;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 { 
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;    
+}
+
+h2 {
+    color: rgb(48, 1, 48);
+}
+
+nav > ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mudança para flex */
+}
+
+ul > li {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1b001b;
+    margin: 0.1rem;
+    padding: 5px;
+    border: 1px solid #1b001b;
+    transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+ul > li:hover {
+    background-color: darkred;
+    border: none;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 4px;
+}
+
+img {
+    width: 5rem;
+}
+
+.about {
+    background: white;
+    margin: 0 5px 5px 5px;
+    width: calc(50% - 10px); /* Calculando largura para manter a responsividade */
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: center;
+    max-width: 1400px; /* Limita a largura máxima do main */
+    margin: 0 auto; /* Centraliza o main */
+}
+
+section {
+    flex: 1 1 300px; /* Permite que as seções cresçam e encolham, com largura mínima de 300px */
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem; /* Margem reduzida para melhorar o espaçamento */
+    padding: 2rem;
+    background-color: white;
+}
+
+.resultadogeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    display: block;
+
+}
+
+footer > p {
+	font-size: 15px;
+    text-align: center;
+    display: block;
+}
